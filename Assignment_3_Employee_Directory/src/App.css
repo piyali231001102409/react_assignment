@@ -334,3 +334,78 @@ body {
     font-size: 20px;
   }
 }
+
+:root {
+  --directory-page: #fff7f5;
+  --directory-surface: #fffdfc;
+  --directory-panel: #f7e9eb;
+  --directory-ink: #352833;
+  --directory-muted: #8c7a83;
+  --directory-line: #ead9de;
+  --directory-accent: #b54568;
+}
+body {
+  background: var(--directory-page);
+  color: var(--directory-ink);
+}
+.directory-app {
+  color: var(--directory-ink);
+}
+.topbar,
+.directory-layout,
+.app-footer,
+.employee-row {
+  border-color: var(--directory-line);
+}
+.topbar,
+.eyebrow,
+.employee-main p,
+.employee-contact small,
+.app-footer {
+  color: var(--directory-muted);
+}
+.brand,
+.date-mark,
+.employee-count strong,
+.employee-main h3,
+.employee-contact,
+.filters > select {
+  color: var(--directory-ink);
+}
+.brand span,
+.page-intro em,
+.row-actions .delete-button {
+  color: var(--directory-accent);
+}
+.employee-form {
+  background: var(--directory-panel);
+}
+.form-grid input,
+.form-grid select,
+.search-field,
+.search-field input,
+.filters > select {
+  background-color: var(--directory-surface);
+}
+.form-grid input,
+.form-grid select,
+.search-field,
+.filters > select {
+  border-color: var(--directory-line);
+}
+.primary-button {
+  background: var(--directory-ink);
+}
+.primary-button span {
+  color: #f2a5b5;
+}
+.employee-avatar,
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.employee-row:hover {
+  background: rgb(181 69 104 / 5%);
+}

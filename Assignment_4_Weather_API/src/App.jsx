@@ -122,7 +122,7 @@ export default function App() {
           <div className="weather-art">
             {API_KEY && current.icon ? (
               <img
-                src={`https://openweathermap.org/img/wn/${current.icon}@2x.png`}
+                src={`https://openweathermap.org/img/wn/${current.icon}@4x.png`}
                 alt={current.description}
               />
             ) : (

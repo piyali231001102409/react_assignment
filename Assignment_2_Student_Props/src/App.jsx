@@ -8,7 +8,7 @@ const initialStudents = [
     department: "Computer Science",
     semester: 4,
     cgpa: 9.2,
-    photo: 12,
+    photo: "photo-1534528741775-53994a69daeb",
   },
   {
     name: "Diya Mukherjee",
@@ -16,7 +16,7 @@ const initialStudents = [
     department: "Electronics",
     semester: 5,
     cgpa: 8.7,
-    photo: 47,
+    photo: "photo-1500648767791-00dcc994a43e",
   },
   {
     name: "Ishaan Roy",
@@ -24,7 +24,7 @@ const initialStudents = [
     department: "Computer Science",
     semester: 5,
     cgpa: 9.6,
-    photo: 14,
+    photo: "photo-1506794778202-cad84cf45f1d",
   },
   {
     name: "Mira Das",
@@ -32,7 +32,7 @@ const initialStudents = [
     department: "Information Technology",
     semester: 3,
     cgpa: 8.9,
-    photo: 44,
+    photo: "photo-1531123897727-8f129e1688ce",
   },
   {
     name: "Kabir Bose",
@@ -40,7 +40,7 @@ const initialStudents = [
     department: "Mechanical",
     semester: 6,
     cgpa: 7.9,
-    photo: 33,
+    photo: "photo-1517841905240-472988babdf9",
   },
   {
     name: "Naina Ghosh",
@@ -48,7 +48,7 @@ const initialStudents = [
     department: "Computer Science",
     semester: 6,
     cgpa: 9.1,
-    photo: 49,
+    photo: "photo-1544005313-94ddf0286df2",
   },
 ];
 
@@ -75,7 +75,7 @@ function StudentCard({ student, rank }) {
       </div>
       <img
         className="student-photo"
-        src={`https://i.pravatar.cc/240?img=${student.photo}`}
+        src={`https://images.unsplash.com/${student.photo}?auto=format&fit=crop&crop=faces&w=480&q=85`}
         alt={`${student.name} portrait`}
       />
       <h2>{student.name}</h2>

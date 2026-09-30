@@ -13,7 +13,7 @@ const products = [
     category: "LIGHTING",
     price: 2499,
     color: "Saffron",
-    image: "photo-1507473885765-e6ed057f782c",
+    image: "photo-1513506003901-1e6a229e2d15",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const products = [
     category: "CARRY",
     price: 899,
     color: "Juniper",
-    image: "photo-1544816155-12df9643f363",
+    image: "photo-1553062407-98eeb64c6a62",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const products = [
     category: "TABLE",
     price: 1799,
     color: "Cloud",
-    image: "photo-1490312278390-ab64016e0aa9",
+    image: "photo-1578749556568-bc2c40e68b61",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const products = [
     category: "PAPER",
     price: 349,
     color: "Papaya",
-    image: "photo-1531346878377-a5be20888e57",
+    image: "photo-1455390582262-044cdead277a",
   },
 ];
 const CartContext = createContext(null);

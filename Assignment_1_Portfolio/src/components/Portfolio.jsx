@@ -8,7 +8,7 @@ const Portfolio = () => {
   const [messages, setMessages] = useState([
     {
       sender: "bot",
-      text: "Hi! 👋 I'm Aritra's portfolio assistant. Ask me anything about Aritra.",
+      text: "Hi! 👋 I'm Piyali's portfolio assistant. Ask me anything about Piyali.",
     },
   ]);
 
@@ -20,7 +20,7 @@ const Portfolio = () => {
       { sender: "user", text: message },
       {
         sender: "bot",
-        text: "Thanks for your message! You can contact Aritra directly through the Contact Me button.",
+        text: "Thanks for your message! You can contact Piyali directly through the Contact Me button.",
       },
     ]);
 
@@ -35,7 +35,7 @@ const Portfolio = () => {
 
   const contactMe = () => {
     window.open(
-      "https://mail.google.com/mail/?view=cm&fs=1&to=aritra.bhattacharya.se@gmail.com",
+      "https://mail.google.com/mail/?view=cm&fs=1&to=piyalidas19989@gmail.com",
       "_blank",
     );
   };
@@ -45,7 +45,7 @@ const Portfolio = () => {
       {/* NAVBAR */}
       <header className="navbar">
         <a href="#home" className="logo">
-          AB<span>.</span>
+          PD<span>.</span>
         </a>
 
         <nav>
@@ -69,9 +69,9 @@ const Portfolio = () => {
           </p>
 
           <h1>
-            Hi, I'm <span>Aritra</span>
+            Hi, I'm <span>Piyali</span>
             <br />
-            Bhattacharya.
+            Das.
           </h1>
 
           <p className="hero-description">
@@ -118,7 +118,7 @@ const Portfolio = () => {
               <span>01 / 01</span>
             </div>
 
-            <div className="profile-initial">AB</div>
+            <div className="profile-initial">PD</div>
 
             <div className="profile-bottom">
               <div>
@@ -149,9 +149,8 @@ const Portfolio = () => {
 
           <div className="about-text">
             <p>
-              I'm <strong>Aritra Bhattacharya</strong>, currently pursuing
-              Bachelor of Computer Applications (BCA) from Techno India
-              University.
+              I'm <strong>Piyali Das</strong>, currently pursuing Bachelor of
+              Computer Applications (BCA) from Techno India University.
             </p>
 
             <p>
@@ -164,17 +163,12 @@ const Portfolio = () => {
             <div className="personal-details">
               <div>
                 <span>NAME</span>
-                <strong>Aritra Bhattacharya</strong>
-              </div>
-
-              <div>
-                <span>PHONE</span>
-                <strong>+91 62916 61554</strong>
+                <strong>Piyali Das</strong>
               </div>
 
               <div>
                 <span>EMAIL</span>
-                <strong>aritra.bhattacharya.se@gmail.com</strong>
+                <strong>piyalidas19989@gmail.com</strong>
               </div>
             </div>
           </div>
@@ -243,7 +237,7 @@ const Portfolio = () => {
             <div className="chat-header">
               <div>
                 <span className="online-dot"></span>
-                Aritra's Assistant
+                Piyali's Assistant
               </div>
 
               <span>ONLINE</span>
@@ -294,11 +288,9 @@ const Portfolio = () => {
           </button>
 
           <div className="contact-details">
-            <a href="mailto:aritra.bhattacharya.se@gmail.com">
-              aritra.bhattacharya.se@gmail.com
+            <a href="mailto:piyalidas19989@gmail.com">
+              piyalidas19989@gmail.com
             </a>
-
-            <a href="tel:+916291661554">+91 62916 61554</a>
           </div>
         </div>
       </section>
@@ -306,10 +298,10 @@ const Portfolio = () => {
       {/* FOOTER */}
       <footer>
         <div className="footer-logo">
-          AB<span>.</span>
+          PD<span>.</span>
         </div>
 
-        <p>© {CURRENT_YEAR} Aritra Bhattacharya. All rights reserved.</p>
+        <p>© {CURRENT_YEAR} Piyali Das. All rights reserved.</p>
 
         <a href="#home">Back to top ↑</a>
       </footer>

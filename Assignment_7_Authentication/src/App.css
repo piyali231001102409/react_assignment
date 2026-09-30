@@ -346,3 +346,88 @@ input {
     font-size: 51px;
   }
 }
+
+:root {
+  --auth-page: #faf4f1;
+  --auth-surface: #fffdfc;
+  --auth-ink: #352b37;
+  --auth-muted: #827781;
+  --auth-line: #e8dce0;
+  --auth-accent: #b94f5b;
+  --auth-deep: #41313f;
+  --auth-soft: #f3e3df;
+}
+body {
+  background: var(--auth-page);
+  color: var(--auth-ink);
+}
+.auth-visual {
+  background-color: var(--auth-deep);
+  background-image:
+    linear-gradient(125deg, rgb(48 36 51 / 91%), rgb(111 52 62 / 78%)),
+    url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=85");
+  background-position: center;
+  background-size: cover;
+}
+.brand span,
+.visual-copy h1 em,
+.submit-button span {
+  color: #f4b894;
+}
+.auth-panel {
+  background: var(--auth-page);
+}
+.auth-form-wrap h2,
+.auth-form-wrap form > label:not(.remember) {
+  color: var(--auth-ink);
+}
+.auth-form-wrap > .eyebrow,
+.form-intro,
+.security-note,
+.remember {
+  color: var(--auth-muted);
+}
+.auth-form-wrap input:not([type="checkbox"]) {
+  background: var(--auth-surface);
+  border-color: var(--auth-line);
+  color: var(--auth-ink);
+}
+.auth-form-wrap input:focus {
+  border-color: var(--auth-accent);
+}
+.remember input {
+  accent-color: var(--auth-accent);
+}
+.submit-button {
+  background: var(--auth-accent);
+}
+.demo-credentials {
+  background: var(--auth-soft);
+}
+.demo-credentials > span,
+.demo-credentials p {
+  color: var(--auth-ink);
+}
+.dashboard-nav {
+  border-color: var(--auth-line);
+}
+.dashboard-nav .brand,
+.dashboard-tasks strong {
+  color: var(--auth-ink);
+}
+.dashboard-nav .brand span,
+.welcome h1 em {
+  color: var(--auth-accent);
+}
+.dashboard-tasks {
+  border-color: var(--auth-line);
+}
+.dashboard-tasks > div {
+  border-color: var(--auth-line);
+}
+.token-preview {
+  background: var(--auth-soft);
+}
+.token-preview code {
+  color: #75454d;
+}

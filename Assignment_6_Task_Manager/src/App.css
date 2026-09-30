@@ -522,3 +522,116 @@ a {
     margin: 0;
   }
 }
+
+:root {
+  --day-page: #f6f4ee;
+  --day-surface: #fffefa;
+  --day-ink: #29343c;
+  --day-muted: #7b8589;
+  --day-line: #e0ded5;
+  --day-accent: #cb7938;
+  --day-sidebar: #293f49;
+  --day-soft: #f3e8d6;
+}
+body {
+  background: var(--day-page);
+  color: var(--day-ink);
+}
+.task-app {
+  color: var(--day-ink);
+}
+.sidebar {
+  background: var(--day-sidebar);
+}
+.task-brand span,
+.primary-button span {
+  color: #f3c66f;
+}
+.sidebar nav a:hover {
+  background: #3a5661;
+}
+.user-badge {
+  background: #f3c66f;
+  color: var(--day-sidebar);
+}
+.workspace-content a:not(.primary-button),
+.section-heading > a {
+  color: #a85d31;
+}
+.view-header h1,
+.section-heading h2,
+.task-name strong,
+.detail-panel h2,
+.summary-grid strong {
+  color: var(--day-ink);
+}
+.view-header .eyebrow,
+.nav-label,
+.summary-grid span,
+.focus-note > span,
+.task-name span,
+.due-date,
+.empty-state {
+  color: var(--day-muted);
+}
+.summary-grid,
+.summary-grid > div,
+.task-list,
+.task-row {
+  border-color: var(--day-line);
+}
+.priority-mark.high {
+  background: #d45d4d;
+}
+.priority-mark.medium {
+  background: #d8a23f;
+}
+.priority-mark.low {
+  background: #55917d;
+}
+.status-pill {
+  background: #e5efe9;
+  color: #416f5d;
+}
+.status-pill.pending {
+  background: #f7edda;
+  color: #8d6625;
+}
+.status-pill.closed {
+  background: #eceae4;
+  color: #777b76;
+}
+.primary-button {
+  background: var(--day-accent);
+  color: white;
+}
+.focus-note,
+.demo-credentials {
+  background: var(--day-soft);
+}
+.focus-note p {
+  color: #72614d;
+}
+.focus-note strong {
+  color: var(--day-ink);
+}
+.task-form input,
+.task-form select,
+.task-form textarea,
+.task-filters select,
+.detail-panel {
+  background: var(--day-surface);
+  border-color: var(--day-line);
+  color: var(--day-ink);
+}
+.detail-panel dl {
+  border-color: var(--day-line);
+}
+.secondary-button {
+  border-color: var(--day-line);
+  color: #52655f;
+}
+.delete-task-button {
+  color: #aa4e43;
+  border-color: #edd9d2;
+}

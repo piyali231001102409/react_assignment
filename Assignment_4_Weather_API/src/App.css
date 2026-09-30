@@ -281,3 +281,68 @@ body {
     text-align: center;
   }
 }
+
+:root {
+  --page-bg: #eff7fb;
+  --ink: #18344a;
+  --muted: #6e8795;
+  --line: #d5e5ec;
+  --accent: #e3a629;
+  --panel: #174f78;
+  --panel-ink: #f3f8fb;
+  --panel-muted: #bdd4e0;
+  --panel-line: rgb(226 241 248 / 25%);
+}
+body {
+  background: var(--page-bg);
+  color: var(--ink);
+}
+.weather-header {
+  border-color: var(--line);
+}
+.brand,
+.weather-title h1 {
+  color: var(--ink);
+}
+.brand span,
+.eyebrow,
+.weather-title > p:last-child,
+.weather-footer {
+  color: var(--muted);
+}
+.location-mark,
+.weather-title h1 em,
+.city-search button,
+.loader {
+  color: var(--accent);
+}
+.city-search > div {
+  border-color: #9db8c7;
+}
+.weather-message {
+  background: #fff1cd;
+  color: #76511a;
+}
+.conditions {
+  background-color: var(--panel);
+  background-image:
+    linear-gradient(110deg, rgb(19 64 97 / 92%), rgb(23 79 120 / 82%)),
+    url("https://images.unsplash.com/photo-1534088568595-a066f410bcda?auto=format&fit=crop&w=1600&q=85");
+  background-position: center;
+  background-size: cover;
+}
+.conditions .eyebrow,
+.condition-stats span,
+.condition-stats small {
+  color: var(--panel-muted);
+}
+.condition-stats > div {
+  border-color: var(--panel-line);
+}
+.weather-art {
+  color: #ffd369;
+}
+.weather-footer .loader {
+  border-color: #c9dce5;
+  border-top-color: var(--accent);
+}

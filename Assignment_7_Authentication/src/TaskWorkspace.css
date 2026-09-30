@@ -455,3 +455,77 @@
     padding: 17px;
   }
 }
+
+.secure-workspace {
+  background: var(--auth-page, #faf4f1);
+  color: var(--auth-ink, #352b37);
+}
+.secure-sidebar {
+  background: var(--auth-deep, #41313f);
+}
+.secure-mark span,
+.secure-primary {
+  color: #fff9f5;
+}
+.secure-mark span {
+  color: #f4b894;
+}
+.secure-sidebar nav a:hover {
+  background: #594453;
+}
+.secure-account > span {
+  background: #f4b894;
+  color: var(--auth-deep, #41313f);
+}
+.secure-page-heading h1,
+.secure-task-row {
+  color: var(--auth-ink, #352b37);
+}
+.secure-page-heading h1 em,
+.secure-delete {
+  color: var(--auth-accent, #b94f5b);
+}
+.secure-primary {
+  background: var(--auth-accent, #b94f5b);
+}
+.secure-stats,
+.secure-stats > div,
+.secure-task-list,
+.secure-task-row {
+  border-color: var(--auth-line, #e8dce0);
+}
+.secure-status {
+  background: #e2f0e8;
+  color: #3e755b;
+}
+.secure-status.pending {
+  background: #f8edd7;
+  color: #8e6828;
+}
+.secure-status.closed {
+  background: #efebe8;
+  color: #77716f;
+}
+.secure-token {
+  background: var(--auth-soft, #f3e3df);
+}
+.secure-token code {
+  color: #75454d;
+}
+.secure-filters select,
+.secure-task-form input,
+.secure-task-form select,
+.secure-task-form textarea,
+.secure-detail,
+.secure-actions > button {
+  background: var(--auth-surface, #fffdfc);
+  border-color: var(--auth-line, #e8dce0);
+  color: var(--auth-ink, #352b37);
+}
+.secure-detail dl {
+  border-color: var(--auth-line, #e8dce0);
+}
+.secure-actions > .secure-delete {
+  color: var(--auth-accent, #b94f5b);
+  border-color: #ead5d8;
+}

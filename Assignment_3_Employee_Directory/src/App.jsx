@@ -9,6 +9,8 @@ const starterEmployees = [
     department: "Design",
     gender: "Female",
     phone: "98765 43210",
+    photo:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=160&q=85",
     localAddress: "Salt Lake, Kolkata",
     permanentAddress: "Burdwan, West Bengal",
   },
@@ -19,6 +21,8 @@ const starterEmployees = [
     department: "Engineering",
     gender: "Male",
     phone: "98765 12340",
+    photo:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&crop=faces&w=160&q=85",
     localAddress: "New Town, Kolkata",
     permanentAddress: "Siliguri, West Bengal",
   },
@@ -29,6 +33,8 @@ const starterEmployees = [
     department: "People",
     gender: "Female",
     phone: "98300 11223",
+    photo:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=160&q=85",
     localAddress: "Park Street, Kolkata",
     permanentAddress: "Howrah, West Bengal",
   },
@@ -121,12 +127,16 @@ function EmployeeForm({ value, onChange, onSubmit, onCancel, editing }) {
 function EmployeeRow({ employee, onEdit, onDelete }) {
   return (
     <article className="employee-row">
-      <div className="avatar">
-        {employee.name
-          .split(" ")
-          .map((part) => part[0])
-          .join("")}
-      </div>
+      {employee.photo ? (
+        <img className="employee-avatar" src={employee.photo} alt="" />
+      ) : (
+        <div className="avatar">
+          {employee.name
+            .split(" ")
+            .map((part) => part[0])
+            .join("")}
+        </div>
+      )}
       <div className="employee-main">
         <h3>{employee.name}</h3>
         <p>

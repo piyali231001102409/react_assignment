@@ -241,3 +241,60 @@ button {
     display: none;
   }
 }
+
+:root {
+  --students-page: #f0f7fa;
+  --students-surface: #ffffff;
+  --students-ink: #173743;
+  --students-muted: #71858b;
+  --students-line: #d7e5e9;
+  --students-accent: #d46a3e;
+}
+body {
+  background: var(--students-page);
+  color: var(--students-ink);
+}
+.students-app {
+  color: var(--students-ink);
+}
+.app-header,
+.student-toolbar,
+.app-footer,
+.student-card dl {
+  border-color: var(--students-line);
+}
+.app-header,
+.kicker,
+.app-footer,
+.heading-note,
+.student-toolbar,
+.cgpa small,
+.roll-number,
+.student-card dt {
+  color: var(--students-muted);
+}
+.brand,
+.student-total,
+.sort-button,
+.cgpa,
+.student-card h2,
+.student-card dd {
+  color: var(--students-ink);
+}
+.brand span,
+.student-heading em,
+.student-card .cgpa {
+  color: var(--students-accent);
+}
+.student-card {
+  background: var(--students-surface);
+  border-color: var(--students-line);
+  box-shadow: 0 8px 24px rgb(23 55 67 / 8%);
+}
+.student-photo {
+  background: #d9e9ed;
+  filter: saturate(1.05);
+}
+.sort-button:hover {
+  color: var(--students-accent);
+}

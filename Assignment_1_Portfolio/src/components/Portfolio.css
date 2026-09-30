@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap");
 
 :root {
-  --bg: #080808;
-  --surface: #101010;
-  --surface-light: #171717;
-  --text: #f5f5f5;
-  --muted: #929292;
-  --line: #292929;
-  --accent: #d6ff4b;
-  --accent-dark: #b9df32;
+  --bg: #101b22;
+  --surface: #172832;
+  --surface-light: #203640;
+  --text: #f4f4ef;
+  --muted: #a0afb2;
+  --line: #354b50;
+  --accent: #ff795f;
+  --accent-dark: #f05e4b;
 }
 
 * {
@@ -230,11 +230,15 @@ a {
   height: 470px;
   padding: 25px;
   border: 1px solid #333;
-  background: linear-gradient(
-    145deg,
-    rgba(255, 255, 255, 0.06),
-    rgba(255, 255, 255, 0.015)
-  );
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.015)
+    ),
+    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85");
+  background-size: cover;
+  background-position: center;
   backdrop-filter: blur(20px);
   position: relative;
   z-index: 2;
@@ -300,7 +304,7 @@ a {
 .orb-one {
   width: 230px;
   height: 230px;
-  background: rgba(214, 255, 75, 0.08);
+  background: rgba(255, 121, 95, 0.12);
   top: 20%;
   left: 5%;
 }
@@ -565,7 +569,7 @@ a {
   text-align: center;
   background: radial-gradient(
     circle at center,
-    rgba(214, 255, 75, 0.07),
+    rgba(255, 121, 95, 0.1),
     transparent 35%
   );
 }
