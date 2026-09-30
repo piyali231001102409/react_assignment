@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import profilePhoto from "../assets/p.png";
 import "./Portfolio.css";
 
 const CURRENT_YEAR = new Date().getFullYear();
@@ -119,11 +118,7 @@ const Portfolio = () => {
               <span>01 / 01</span>
             </div>
 
-            <img
-              className="profile-photo"
-              src={profilePhoto}
-              alt="Portrait of Piyali Das"
-            />
+            <div className="profile-initial">PD</div>
 
             <div className="profile-bottom">
               <div>
