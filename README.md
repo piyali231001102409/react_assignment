@@ -28,13 +28,13 @@ Assignments 6 and 7 include `react-router-dom` in their package dependencies. Ru
 
 ## Weather API key (Assignment 4)
 
-Create a file named `.env` inside `Assignment_4_Weather_API` by copying `.env.example`, then set your own OpenWeatherMap API key:
+Create a file named `.env` inside `Assignment_4_Weather_API` and set your OpenWeatherMap API key. The key is read by the server-side weather endpoint and is not exposed to the browser:
 
 ```env
-VITE_OPENWEATHER_API_KEY=your_key_here
+VITE_API_KEY=your_key_here
 ```
 
-Restart the Vite server after changing `.env`. Do not commit or share your real key. Without a key, the weather app shows sample conditions and explains the setup requirement.
+Restart the Vite server after changing `.env`. Do not commit or share your real key. Without a key, the weather app shows sample conditions and a configuration message.
 
 ## Demo login (Assignment 7)
 
